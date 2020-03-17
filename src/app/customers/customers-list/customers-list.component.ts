@@ -7,6 +7,7 @@ import { ICustomer } from 'src/app/shared/interfaces';
   styleUrls: ['./customers-list.component.css']
 })
 export class CustomersListComponent implements OnInit {
+  // tslint:disable-next-line: variable-name
   private _customers: ICustomer[] = [];
   @Input() get customers(): ICustomer[] {
     return this._customers;
@@ -34,6 +35,10 @@ export class CustomersListComponent implements OnInit {
     this.filteredCustomers.forEach((cust: ICustomer) => {
         this.customersOrderTotal += cust.orderTotal;
     });
-}
+  }
+
+  sort(prop: string) {
+    // A sorter service will handle the sorting
+  }
 
 }
