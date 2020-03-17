@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "ted James",
+        "city": " Phoenix ",
+        "orderTotal": 40.99
+    },
+    {
+        "id": 2,
+        "name": "Michelle Thompson",
+        "city": "Los Angeles",
+        "orderTotal": 89.99
+    },
+    {
+        "id": 3,
+        "name": "James Thomas",
+        "city": " Las Vegas ",
+        "orderTotal": 22.99
+    },
+    {
+        "id": 4,
+        "name": "Tian Adam",
+        "city": " Seattle ",
+        "orderTotal": 15.99
+    }
+]
