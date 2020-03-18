@@ -8,6 +8,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./filter-textbox.component.css']
 })
 export class FilterTextboxComponent implements OnInit {
+  // tslint:disable-next-line: variable-name
   private _filter: string;
   @Input() get filter() {
     return this._filter;
