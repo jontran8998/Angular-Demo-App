@@ -1,3 +1,21 @@
+
+# Angular_Demo
+
+#### Link: https://jontran-angular-demo.herokuapp.com/ 
+
+#### Features:
+- Show list of name, city and order total from JSON database
+- Filter data by Name, City or Order Total
+- Show number of objects after filtering
+
+#### What I learned from this project
+- Get familiar with Angular components, services, routing, modules, angular CLI
+- Setting up events binding, properties binding and filter function
+- Rendering server to get data with Observables
+-	Updating the DOM with different components
+-	Deploy all packages to the Heroku server
+
+
 # DemoAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
